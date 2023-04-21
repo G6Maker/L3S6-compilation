@@ -1,0 +1,1810 @@
+Execution of instruction IP=0 0 -> 35 const
+Register ip = 0 (0) [0]
+Register fl = 0 (0) [0]
+Register sp = 0 (0) [0]
+Register bp = 0 (0) [0]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 0 (0) [0]
+
+Execution of instruction IP=4 4 -> 60 jmp
+Register ip = 4 (4) [4]
+Register fl = 0 (0) [0]
+Register sp = 0 (0) [0]
+Register bp = 0 (0) [0]
+Register ax = 216 (216) [d8]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 0 (0) [0]
+
+Execution of instruction IP=216 d8 -> 35 const
+Register ip = 216 (216) [d8]
+Register fl = 0 (0) [0]
+Register sp = 0 (0) [0]
+Register bp = 0 (0) [0]
+Register ax = 216 (216) [d8]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 0 (0) [0]
+
+Execution of instruction IP=220 dc -> 35 const
+Register ip = 220 (220) [dc]
+Register fl = 0 (0) [0]
+Register sp = 0 (0) [0]
+Register bp = 270 (270) [10e]
+Register ax = 216 (216) [d8]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 0 (0) [0]
+
+Execution of instruction IP=224 e0 -> 35 const
+Register ip = 224 (224) [e0]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 216 (216) [d8]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 0 (0) [0]
+
+Execution of instruction IP=228 e4 -> 21 sub
+Register ip = 228 (228) [e4]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 0 (0) [0]
+
+Execution of instruction IP=231 e7 -> 35 const
+Register ip = 231 (231) [e7]
+Register fl = 2 (2) [2]
+Register sp = 268 (268) [10c]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 0 (0) [0]
+
+Execution of instruction IP=236 ec -> 40 push
+Register ip = 236 (236) [ec]
+Register fl = 0 (0) [0]
+Register sp = 268 (268) [10c]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 0 (0) [0]
+
+Execution of instruction IP=238 ee -> 35 const
+Register ip = 238 (238) [ee]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 0 (0) [0]
+
+Execution of instruction IP=242 f2 -> 40 push
+Register ip = 242 (242) [f2]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 0 (0) [0]
+
+Execution of instruction IP=244 f4 -> 35 const
+Register ip = 244 (244) [f4]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 0 (0) [0]
+
+Execution of instruction IP=248 f8 -> 65 call
+Register ip = 248 (248) [f8]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 12 (12) [c]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 0 (0) [0]
+
+Execution of instruction IP=12 c -> 35 const
+Register ip = 12 (12) [c]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 12 (12) [c]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 0 (0) [0]
+
+Execution of instruction IP=16 10 -> 60 jmp
+Register ip = 16 (16) [10]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 12 (12) [c]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 20 (20) [14]
+
+Execution of instruction IP=20 14 -> 41 pop
+Register ip = 20 (20) [14]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 12 (12) [c]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 20 (20) [14]
+
+Execution of instruction IP=22 16 -> 41 pop
+Register ip = 22 (22) [16]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 12 (12) [c]
+Register bx = 250 (250) [fa]
+Register cx = 0 (0) [0]
+Register dx = 20 (20) [14]
+
+Execution of instruction IP=24 18 -> 40 push
+Register ip = 24 (24) [18]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 250 (250) [fa]
+Register cx = 0 (0) [0]
+Register dx = 20 (20) [14]
+
+Execution of instruction IP=26 1a -> 35 const
+Register ip = 26 (26) [1a]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 250 (250) [fa]
+Register cx = 0 (0) [0]
+Register dx = 20 (20) [14]
+
+Execution of instruction IP=30 1e -> 32 storew
+Register ip = 30 (30) [1e]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 250 (250) [fa]
+Register cx = 0 (0) [0]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=33 21 -> 35 const
+Register ip = 33 (33) [21]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 250 (250) [fa]
+Register cx = 0 (0) [0]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=38 26 -> 60 jmp
+Register ip = 38 (38) [26]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 250 (250) [fa]
+Register cx = 0 (0) [0]
+Register dx = 42 (42) [2a]
+
+Execution of instruction IP=42 2a -> 41 pop
+Register ip = 42 (42) [2a]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 250 (250) [fa]
+Register cx = 0 (0) [0]
+Register dx = 42 (42) [2a]
+
+Execution of instruction IP=44 2c -> 41 pop
+Register ip = 44 (44) [2c]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 250 (250) [fa]
+Register cx = 0 (0) [0]
+Register dx = 42 (42) [2a]
+
+Execution of instruction IP=46 2e -> 40 push
+Register ip = 46 (46) [2e]
+Register fl = 0 (0) [0]
+Register sp = 268 (268) [10c]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 250 (250) [fa]
+Register cx = 0 (0) [0]
+Register dx = 42 (42) [2a]
+
+Execution of instruction IP=48 30 -> 35 const
+Register ip = 48 (48) [30]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 250 (250) [fa]
+Register cx = 0 (0) [0]
+Register dx = 42 (42) [2a]
+
+Execution of instruction IP=52 34 -> 32 storew
+Register ip = 52 (52) [34]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 250 (250) [fa]
+Register cx = 0 (0) [0]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=55 37 -> 35 const
+Register ip = 55 (55) [37]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 250 (250) [fa]
+Register cx = 0 (0) [0]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=60 3c -> 31 loadw
+Register ip = 60 (60) [3c]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 250 (250) [fa]
+Register cx = 0 (0) [0]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=63 3f -> 40 push
+Register ip = 63 (63) [3f]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 250 (250) [fa]
+Register cx = 0 (0) [0]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=65 41 -> 35 const
+Register ip = 65 (65) [41]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 250 (250) [fa]
+Register cx = 0 (0) [0]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=70 46 -> 40 push
+Register ip = 70 (70) [46]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 250 (250) [fa]
+Register cx = 0 (0) [0]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=72 48 -> 41 pop
+Register ip = 72 (72) [48]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 250 (250) [fa]
+Register cx = 0 (0) [0]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=74 4a -> 41 pop
+Register ip = 74 (74) [4a]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=76 4c -> 21 sub
+Register ip = 76 (76) [4c]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=79 4f -> 35 const
+Register ip = 79 (79) [4f]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=84 54 -> 35 const
+Register ip = 84 (84) [54]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 102 (102) [66]
+
+Execution of instruction IP=88 58 -> 50 cmp
+Register ip = 88 (88) [58]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 102 (102) [66]
+
+Execution of instruction IP=91 5b -> 62 jmpc
+Register ip = 91 (91) [5b]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 102 (102) [66]
+
+Execution of instruction IP=93 5d -> 40 push
+Register ip = 93 (93) [5d]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 102 (102) [66]
+
+Execution of instruction IP=95 5f -> 35 const
+Register ip = 95 (95) [5f]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 102 (102) [66]
+
+Execution of instruction IP=100 64 -> 60 jmp
+Register ip = 100 (100) [64]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=114 72 -> 41 pop
+Register ip = 114 (114) [72]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=116 74 -> 35 const
+Register ip = 116 (116) [74]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=120 78 -> 35 const
+Register ip = 120 (120) [78]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 0 (0) [0]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=124 7c -> 50 cmp
+Register ip = 124 (124) [7c]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=127 7f -> 62 jmpc
+Register ip = 127 (127) [7f]
+Register fl = 6 (6) [6]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=145 91 -> 35 const
+Register ip = 145 (145) [91]
+Register fl = 6 (6) [6]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=150 96 -> 31 loadw
+Register ip = 150 (150) [96]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=153 99 -> 40 push
+Register ip = 153 (153) [99]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=155 9b -> 35 const
+Register ip = 155 (155) [9b]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=160 a0 -> 31 loadw
+Register ip = 160 (160) [a0]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=163 a3 -> 40 push
+Register ip = 163 (163) [a3]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=165 a5 -> 35 const
+Register ip = 165 (165) [a5]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=170 aa -> 40 push
+Register ip = 170 (170) [aa]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=172 ac -> 41 pop
+Register ip = 172 (172) [ac]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=174 ae -> 41 pop
+Register ip = 174 (174) [ae]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=176 b0 -> 21 sub
+Register ip = 176 (176) [b0]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=179 b3 -> 40 push
+Register ip = 179 (179) [b3]
+Register fl = 6 (6) [6]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=181 b5 -> 35 const
+Register ip = 181 (181) [b5]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=186 ba -> 65 call
+Register ip = 186 (186) [ba]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 12 (12) [c]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=12 c -> 35 const
+Register ip = 12 (12) [c]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 12 (12) [c]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=16 10 -> 60 jmp
+Register ip = 16 (16) [10]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 12 (12) [c]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 20 (20) [14]
+
+Execution of instruction IP=20 14 -> 41 pop
+Register ip = 20 (20) [14]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 12 (12) [c]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 20 (20) [14]
+
+Execution of instruction IP=22 16 -> 41 pop
+Register ip = 22 (22) [16]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 12 (12) [c]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 20 (20) [14]
+
+Execution of instruction IP=24 18 -> 40 push
+Register ip = 24 (24) [18]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 20 (20) [14]
+
+Execution of instruction IP=26 1a -> 35 const
+Register ip = 26 (26) [1a]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 20 (20) [14]
+
+Execution of instruction IP=30 1e -> 32 storew
+Register ip = 30 (30) [1e]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=33 21 -> 35 const
+Register ip = 33 (33) [21]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=38 26 -> 60 jmp
+Register ip = 38 (38) [26]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 42 (42) [2a]
+
+Execution of instruction IP=42 2a -> 41 pop
+Register ip = 42 (42) [2a]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 42 (42) [2a]
+
+Execution of instruction IP=44 2c -> 41 pop
+Register ip = 44 (44) [2c]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 42 (42) [2a]
+
+Execution of instruction IP=46 2e -> 40 push
+Register ip = 46 (46) [2e]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 42 (42) [2a]
+
+Execution of instruction IP=48 30 -> 35 const
+Register ip = 48 (48) [30]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 42 (42) [2a]
+
+Execution of instruction IP=52 34 -> 32 storew
+Register ip = 52 (52) [34]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=55 37 -> 35 const
+Register ip = 55 (55) [37]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=60 3c -> 31 loadw
+Register ip = 60 (60) [3c]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=63 3f -> 40 push
+Register ip = 63 (63) [3f]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=65 41 -> 35 const
+Register ip = 65 (65) [41]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=70 46 -> 40 push
+Register ip = 70 (70) [46]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=72 48 -> 41 pop
+Register ip = 72 (72) [48]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=74 4a -> 41 pop
+Register ip = 74 (74) [4a]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=76 4c -> 21 sub
+Register ip = 76 (76) [4c]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=79 4f -> 35 const
+Register ip = 79 (79) [4f]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=84 54 -> 35 const
+Register ip = 84 (84) [54]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 102 (102) [66]
+
+Execution of instruction IP=88 58 -> 50 cmp
+Register ip = 88 (88) [58]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 102 (102) [66]
+
+Execution of instruction IP=91 5b -> 62 jmpc
+Register ip = 91 (91) [5b]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 102 (102) [66]
+
+Execution of instruction IP=93 5d -> 40 push
+Register ip = 93 (93) [5d]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 102 (102) [66]
+
+Execution of instruction IP=95 5f -> 35 const
+Register ip = 95 (95) [5f]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 102 (102) [66]
+
+Execution of instruction IP=100 64 -> 60 jmp
+Register ip = 100 (100) [64]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=114 72 -> 41 pop
+Register ip = 114 (114) [72]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=116 74 -> 35 const
+Register ip = 116 (116) [74]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=120 78 -> 35 const
+Register ip = 120 (120) [78]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=124 7c -> 50 cmp
+Register ip = 124 (124) [7c]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=127 7f -> 62 jmpc
+Register ip = 127 (127) [7f]
+Register fl = 6 (6) [6]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=145 91 -> 35 const
+Register ip = 145 (145) [91]
+Register fl = 6 (6) [6]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=150 96 -> 31 loadw
+Register ip = 150 (150) [96]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=153 99 -> 40 push
+Register ip = 153 (153) [99]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=155 9b -> 35 const
+Register ip = 155 (155) [9b]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=160 a0 -> 31 loadw
+Register ip = 160 (160) [a0]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=163 a3 -> 40 push
+Register ip = 163 (163) [a3]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=165 a5 -> 35 const
+Register ip = 165 (165) [a5]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=170 aa -> 40 push
+Register ip = 170 (170) [aa]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=172 ac -> 41 pop
+Register ip = 172 (172) [ac]
+Register fl = 0 (0) [0]
+Register sp = 278 (278) [116]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=174 ae -> 41 pop
+Register ip = 174 (174) [ae]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=176 b0 -> 21 sub
+Register ip = 176 (176) [b0]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 2 (2) [2]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=179 b3 -> 40 push
+Register ip = 179 (179) [b3]
+Register fl = 2 (2) [2]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=181 b5 -> 35 const
+Register ip = 181 (181) [b5]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=186 ba -> 65 call
+Register ip = 186 (186) [ba]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 12 (12) [c]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=12 c -> 35 const
+Register ip = 12 (12) [c]
+Register fl = 0 (0) [0]
+Register sp = 278 (278) [116]
+Register bp = 270 (270) [10e]
+Register ax = 12 (12) [c]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=16 10 -> 60 jmp
+Register ip = 16 (16) [10]
+Register fl = 0 (0) [0]
+Register sp = 278 (278) [116]
+Register bp = 270 (270) [10e]
+Register ax = 12 (12) [c]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 20 (20) [14]
+
+Execution of instruction IP=20 14 -> 41 pop
+Register ip = 20 (20) [14]
+Register fl = 0 (0) [0]
+Register sp = 278 (278) [116]
+Register bp = 270 (270) [10e]
+Register ax = 12 (12) [c]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 20 (20) [14]
+
+Execution of instruction IP=22 16 -> 41 pop
+Register ip = 22 (22) [16]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 12 (12) [c]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 20 (20) [14]
+
+Execution of instruction IP=24 18 -> 40 push
+Register ip = 24 (24) [18]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 20 (20) [14]
+
+Execution of instruction IP=26 1a -> 35 const
+Register ip = 26 (26) [1a]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 20 (20) [14]
+
+Execution of instruction IP=30 1e -> 32 storew
+Register ip = 30 (30) [1e]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=33 21 -> 35 const
+Register ip = 33 (33) [21]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=38 26 -> 60 jmp
+Register ip = 38 (38) [26]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 42 (42) [2a]
+
+Execution of instruction IP=42 2a -> 41 pop
+Register ip = 42 (42) [2a]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 42 (42) [2a]
+
+Execution of instruction IP=44 2c -> 41 pop
+Register ip = 44 (44) [2c]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 42 (42) [2a]
+
+Execution of instruction IP=46 2e -> 40 push
+Register ip = 46 (46) [2e]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 42 (42) [2a]
+
+Execution of instruction IP=48 30 -> 35 const
+Register ip = 48 (48) [30]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 42 (42) [2a]
+
+Execution of instruction IP=52 34 -> 32 storew
+Register ip = 52 (52) [34]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=55 37 -> 35 const
+Register ip = 55 (55) [37]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=60 3c -> 31 loadw
+Register ip = 60 (60) [3c]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=63 3f -> 40 push
+Register ip = 63 (63) [3f]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=65 41 -> 35 const
+Register ip = 65 (65) [41]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=70 46 -> 40 push
+Register ip = 70 (70) [46]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=72 48 -> 41 pop
+Register ip = 72 (72) [48]
+Register fl = 0 (0) [0]
+Register sp = 278 (278) [116]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 188 (188) [bc]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=74 4a -> 41 pop
+Register ip = 74 (74) [4a]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=76 4c -> 21 sub
+Register ip = 76 (76) [4c]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=79 4f -> 35 const
+Register ip = 79 (79) [4f]
+Register fl = 4 (4) [4]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 40 (40) [28]
+
+Execution of instruction IP=84 54 -> 35 const
+Register ip = 84 (84) [54]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 102 (102) [66]
+
+Execution of instruction IP=88 58 -> 50 cmp
+Register ip = 88 (88) [58]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 102 (102) [66]
+
+Execution of instruction IP=91 5b -> 62 jmpc
+Register ip = 91 (91) [5b]
+Register fl = 6 (6) [6]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 102 (102) [66]
+
+Execution of instruction IP=102 66 -> 35 const
+Register ip = 102 (102) [66]
+Register fl = 6 (6) [6]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 0 (0) [0]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 102 (102) [66]
+
+Execution of instruction IP=106 6a -> 40 push
+Register ip = 106 (106) [6a]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 102 (102) [66]
+
+Execution of instruction IP=108 6c -> 35 const
+Register ip = 108 (108) [6c]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 102 (102) [66]
+
+Execution of instruction IP=112 70 -> 60 jmp
+Register ip = 112 (112) [70]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=114 72 -> 41 pop
+Register ip = 114 (114) [72]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=116 74 -> 35 const
+Register ip = 116 (116) [74]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=120 78 -> 35 const
+Register ip = 120 (120) [78]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=124 7c -> 50 cmp
+Register ip = 124 (124) [7c]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=127 7f -> 62 jmpc
+Register ip = 127 (127) [7f]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=129 81 -> 35 const
+Register ip = 129 (129) [81]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=134 86 -> 40 push
+Register ip = 134 (134) [86]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=136 88 -> 41 pop
+Register ip = 136 (136) [88]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 0 (0) [0]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=138 8a -> 41 pop
+Register ip = 138 (138) [8a]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=140 8c -> 40 push
+Register ip = 140 (140) [8c]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 188 (188) [bc]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=142 8e -> 40 push
+Register ip = 142 (142) [8e]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 188 (188) [bc]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=144 90 -> 66 ret
+Register ip = 144 (144) [90]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 188 (188) [bc]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=188 bc -> 35 const
+Register ip = 188 (188) [bc]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 188 (188) [bc]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 114 (114) [72]
+
+Execution of instruction IP=192 c0 -> 31 loadw
+Register ip = 192 (192) [c0]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 188 (188) [bc]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=195 c3 -> 40 push
+Register ip = 195 (195) [c3]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=197 c5 -> 41 pop
+Register ip = 197 (197) [c5]
+Register fl = 0 (0) [0]
+Register sp = 276 (276) [114]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=199 c7 -> 41 pop
+Register ip = 199 (199) [c7]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=201 c9 -> 22 mul
+Register ip = 201 (201) [c9]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=204 cc -> 40 push
+Register ip = 204 (204) [cc]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=206 ce -> 41 pop
+Register ip = 206 (206) [ce]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=208 d0 -> 41 pop
+Register ip = 208 (208) [d0]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=210 d2 -> 40 push
+Register ip = 210 (210) [d2]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 188 (188) [bc]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=212 d4 -> 40 push
+Register ip = 212 (212) [d4]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 188 (188) [bc]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=214 d6 -> 66 ret
+Register ip = 214 (214) [d6]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 188 (188) [bc]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=188 bc -> 35 const
+Register ip = 188 (188) [bc]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 188 (188) [bc]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=192 c0 -> 31 loadw
+Register ip = 192 (192) [c0]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 188 (188) [bc]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=195 c3 -> 40 push
+Register ip = 195 (195) [c3]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=197 c5 -> 41 pop
+Register ip = 197 (197) [c5]
+Register fl = 0 (0) [0]
+Register sp = 274 (274) [112]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=199 c7 -> 41 pop
+Register ip = 199 (199) [c7]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=201 c9 -> 22 mul
+Register ip = 201 (201) [c9]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=204 cc -> 40 push
+Register ip = 204 (204) [cc]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=206 ce -> 41 pop
+Register ip = 206 (206) [ce]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=208 d0 -> 41 pop
+Register ip = 208 (208) [d0]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=210 d2 -> 40 push
+Register ip = 210 (210) [d2]
+Register fl = 0 (0) [0]
+Register sp = 268 (268) [10c]
+Register bp = 270 (270) [10e]
+Register ax = 250 (250) [fa]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=212 d4 -> 40 push
+Register ip = 212 (212) [d4]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 250 (250) [fa]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=214 d6 -> 66 ret
+Register ip = 214 (214) [d6]
+Register fl = 0 (0) [0]
+Register sp = 272 (272) [110]
+Register bp = 270 (270) [10e]
+Register ax = 250 (250) [fa]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=250 fa -> 35 const
+Register ip = 250 (250) [fa]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 250 (250) [fa]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 18 (18) [12]
+
+Execution of instruction IP=254 fe -> 60 jmp
+Register ip = 254 (254) [fe]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 250 (250) [fa]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 258 (258) [102]
+
+Execution of instruction IP=258 102 -> 41 pop
+Register ip = 258 (258) [102]
+Register fl = 0 (0) [0]
+Register sp = 270 (270) [10e]
+Register bp = 270 (270) [10e]
+Register ax = 250 (250) [fa]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 258 (258) [102]
+
+Execution of instruction IP=260 104 -> 35 const
+Register ip = 260 (260) [104]
+Register fl = 0 (0) [0]
+Register sp = 268 (268) [10c]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 258 (258) [102]
+
+Execution of instruction IP=264 108 -> 32 storew
+Register ip = 264 (264) [108]
+Register fl = 0 (0) [0]
+Register sp = 268 (268) [10c]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 256 (256) [100]
+
+Execution of instruction IP=267 10b -> 6a callprintfd
+Register ip = 267 (267) [10b]
+Register fl = 0 (0) [0]
+Register sp = 268 (268) [10c]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 256 (256) [100]
+
+Execution of instruction IP=269 10d -> ff end
+Register ip = 269 (269) [10d]
+Register fl = 0 (0) [0]
+Register sp = 268 (268) [10c]
+Register bp = 270 (270) [10e]
+Register ax = 1 (1) [1]
+Register bx = 1 (1) [1]
+Register cx = 145 (145) [91]
+Register dx = 256 (256) [100]
+

@@ -1,0 +1,54 @@
+#!/bin/bash
+#this script creates a .asm file which contains the assembly code of the function given in argument then execute it.
+#usage: ./run '\SIPRO{function}{arg1, arg2, ...}'
+#check if the argument is correct
+if [ $# -ne 1 ]
+then
+    echo "usage: ./run '\SIPRO{function}{arg1, arg2, ...}'"
+    exit 1
+fi
+#first, we get the current directory
+current_dir=$(pwd)
+echo "$1" > "./tmp_fun"
+#first, we use ./ex1 < $# > $1.asm
+make > "./tmp_log"
+./ex1 < "./tmp_fun" > "$current_dir/tmp_run.asm"
+if [ $? -ne 0 ]
+then
+    echo -e "\e[91mSomething went wrong 0"
+    rm "./tmp_fun"
+    rm "$current_dir/tmp_run.asm"
+    exit 1
+fi
+rm "./tmp_log"
+rm "./tmp_fun"
+#second, we compile the .asm file
+./asipro-master/asm/asipro "$current_dir/tmp_run.asm" "$current_dir/tmp_run.out" 2> "$current_dir/tmp_log"
+if [ $? -ne 0 ]
+then
+    echo -e "\e[91mSomething went wrong 1"
+    rm "$current_dir/tmp_run.asm"
+    rm "$current_dir/tmp_run.out"
+    exit 1
+fi
+#third, we execute the .asm file
+./asipro-master/emul/sipro "$current_dir/tmp_run.out" 2>> "$current_dir/tmp_log"
+if [ $? -ne 0 ]
+then
+    echo -e "\e[91mSomething went wrong 2"
+    rm "$current_dir/tmp_run.asm"
+    rm "$current_dir/tmp_run.out"
+    exit 1
+fi
+#fourth, we remove the tmp file
+#rm "$current_dir/tmp_run.asm"
+#rm "$current_dir/tmp_run.out"
+#print if everything is good
+if [ $? -eq 0 ]
+then
+    echo -e "\n\e[32mEverything is good"
+    rm "$current_dir/tmp_log"
+else
+    echo -e "\e[91mSomething went wrong 3"
+    exit 1
+fi

@@ -1,0 +1,32 @@
+#!/bin/bash
+#this script is used to convert a .tex file into a .asm file
+#usage: ./algo2asm.sh <file.tex>
+#check if the argument is correct
+if [ $# -ne 1 ]
+then
+    echo "usage: ./algo2asm.sh <file.tex>"
+    exit 1
+fi
+#first, we extract the filename of the path
+filename=$(basename "$1")
+#we remove the extension
+filename="${filename%.*}"
+#second, we compile with make and redirect the output to "$current_dir/tmp_log"
+make > "./tmp_log"
+if [ $? -ne 0 ]
+then
+    echo -e "\e[91merror: compilation failed"
+    exit 1
+fi
+#third, we convert the .tex file into a .asm file
+#we use ./ex1 < <file.tex> > <file.asm>
+./ex1 < "$1" > "$filename.asm" 
+#fourth, we says if everything is good
+if [ $? -eq 0 ]
+then
+    echo -e "\e[32mEverything is good"
+    rm "./tmp_log"
+else
+    echo -e "\e[91mSomething went wrong"
+    exit 1
+fi

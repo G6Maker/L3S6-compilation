@@ -1,0 +1,45 @@
+  \begin{algo}{puissance}{a,b}
+:fonc:puissance:1
+    \SET{p}{1}
+;declaration
+    const ax,decl:after:1
+    jmp ax
+;p = 1
+:fonc:puissance:1:p
+@int 1
+:decl:after:1
+    \DOFORI{k}{1}{b}
+;k = 1
+    const ax,decl:after:2
+    jmp ax
+:fonc:puissance:1:k
+@int 1
+:decl:after:2
+:loop:for:begin:1
+    const dx,fonc:puissance:1:k
+    loadw ax,dx
+    const dx,val:puissance:b
+    loadw bx,dx
+    const cx,loop:for:end:1
+    sless bx,ax
+    jmpc cx
+      \SET{p}{p*a}
+    const dx,fonc:puissance:1:p
+    loadw ax,dx
+    const dx,val:puissance:a
+    loadw bx,dx
+    mul ax,bx
+    const dx,fonc:puissance:1:p
+    storew ax,dx
+    const dx,fonc:puissance:1:k
+    \OD
+    loadw ax,dx
+    const bx,1
+    add ax,bx
+    const dx,fonc:puissance:1:k
+    storew ax,dx
+    const dx,loop:for:begin:1
+    jmp dx
+    :loop:for:end:1
+    \RETURN{p}
+  \end{algo}
